@@ -7,6 +7,7 @@
 
 body{
   width:100%;
+  font-family: 'Montserrat', sans-serif;
 }
   
 /******* BAKGRUNDSBILD ******/ 
@@ -80,3 +81,12 @@ p{
 }
 /****** Lägg till en extra bild här nedan om du vill.****/
 /*Glöm inte att lägga till ett class namn på din image tag */
+
+/*Det sista jag vill visa är om ni vill lägga till repsonsivitet, så att heroimage även ser bra ut i mobil telefonen*/
+
+@media (max-width: 765px) {
+  .hero-text{
+  top: 25%;
+  left: 20%;
+  }
+} 
